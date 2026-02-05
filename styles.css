@@ -126,3 +126,139 @@ nav button{
     font-size: 20px;
     margin: 5px;
 }
+.usecases{
+    margin-left:5% 
+}
+.usecases p{
+    font-size: 25px;
+    
+}
+
+.card{
+    display: flex;
+    width: 85%;
+    margin: 20px 73px;
+    gap: 20px;
+}
+
+.card div{
+
+    width: 33%;
+    background-color: #1B1913;
+    padding: 20px ;
+    
+}
+.card div p{
+    line-height: 1.5;
+}
+.red{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:red;
+}
+.card div img{
+
+    width:100%;
+    height:400px;
+}
+
+.changelog{
+display: flex;
+    width: 85%;
+    margin: 20px 73px;
+    gap: 20px;
+
+}
+.changelog div{
+    background-color: #1B1913;
+    padding: 20px;
+}
+.changelog p{
+  margin: 20px 0;
+}
+.changelog span{
+    color: rgba(237, 236, 236, 0.6); ;
+}
+.circle{
+    border: 2px solid rgba(237, 236, 236, 0.6);
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.updates{
+    color: red;
+    margin: 2% 5%;
+}
+
+.Features-join {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 85%;
+    margin: 50px 80px;
+    height: 400px;
+
+}
+.Features-box-join {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #1B1913;
+
+}
+.Features-join img {
+    width: 850px;
+    height: 500px;
+}
+.Features-join p {
+    font-size: 20px;
+    margin: 25px;
+}
+.highlight{
+    margin-top: 400px;
+    background-color: #1B1913;
+    /* height: 400px; */
+    padding: 100px;
+    display: flex;
+    gap: 200px;
+}
+.highlight-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.highlight-card div{
+    background-color: #201E18;
+    padding: 20px;
+}
+
+.highlight-card p{
+    line-height: 1.5;
+    color: rgba(237, 236, 236, 0.6); 
+    width: 90%;
+    font-size: 18px;
+}
+.download{
+    text-align: center;
+    margin: 180px 0;
+}
+.download p{
+    font-size: 70px;
+}
+.download button{
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    background-color: #1B1913;
+    gap:200px;
+    padding: 80px 150px;
+}
+footer p{
+    line-height: 2.0;
+}
